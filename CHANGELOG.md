@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
--  Once allowlisted tab considers all following websites in the tab as allowlisted [AdguardBrowserExtension#3020].
+- Once allowlisted tab considers all following websites in the tab as allowlisted [#3020].
 
 [#3020]: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3020
 
