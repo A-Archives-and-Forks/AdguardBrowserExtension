@@ -111,7 +111,7 @@
     "@adguard/logger": "^1.1.1",
     "@adguard/scriptlets": "^1.12.1",
     "@adguard/translate": "^1.0.2",
-    "@adguard/tsurlfilter": "https://github.com/AdguardTeam/tsurlfilter/raw/399884044316e655cb22819676707d8aafeea823/packages/tsurlfilter/tsurlfilter.tgz",
+    "@adguard/tsurlfilter": "https://github.com/AdguardTeam/tsurlfilter/raw/ff31fdc1dd18b54ff49767f925827149f94ab6f8/packages/tsurlfilter/tsurlfilter.tgz",
     "@adguard/tswebextension": "https://github.com/AdguardTeam/tsurlfilter/raw/ff31fdc1dd18b54ff49767f925827149f94ab6f8/packages/tswebextension/tswebextension.tgz",
     "@xstate/react": "^4.1.1",
     "ace-builds": "^1.8.1",
@@ -151,10 +151,5 @@
     "xstate": "^5.14.0",
     "zod": "^3.13.4",
     "zod-validation-error": "^3.4.0"
-  },
-  "resolutions": {
-    "string-width": "^4.2.0",
-    "strip-ansi": "^6.0.1",
-    "wrap-ansi": "^7.0.0"
   }
 }
