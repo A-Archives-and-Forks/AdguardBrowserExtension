@@ -7,14 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-### Added
-
-- Unsafe dynamic rules limit for MV3.
-
-### Changed
-
-- Increased all dynamic rules limit to 30000 for MV3.
-
 ### Fixed
 
 - Once allowlisted tab considers all following websites in the tab as allowlisted [#3020].
