@@ -10,15 +10,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Once allowlisted tab considers all following websites in the tab as allowlisted [#3020].
+- A rule from a disabled filter list disables another rule [#3002].
+- Notify user that rule was not applied because of the chrome limitations [#3004].
 
 [#3020]: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3020
+[#3002]: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3002
+[#3004]: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3004
 
-- A rule from a disabled filter list disables another rule [AdguardBrowserExtension#3002].
+## [5.0.162] - 2024-10-30
 
-[AdguardBrowserExtension#3002]: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3002
+### Added
 
-<!-- TODO: check release version, add release date -->
-## [5.0.159]
+- Send `manifest_version` during issues reporting.
+
+[5.0.162]: https://github.com/AdguardTeam/AdguardBrowserExtension/releases/tag/v5.0.162
+
+## [5.0.159] - 2024-10-23
 
 ### Changed
 
@@ -32,8 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Excluding request types causes document blocking [#2992].
 - Selecting a single `$permissions` filtering log event selects all `$permissions` events.
 
-<!-- TODO: uncomment when released -->
-<!-- [5.0.159]: https://github.com/AdguardTeam/AdguardBrowserExtension/releases/tag/v5.0.159 -->
+[5.0.159]: https://github.com/AdguardTeam/AdguardBrowserExtension/releases/tag/v5.0.159
 [#2992]: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2992
 
 ## [4.4.39] - 2024-10-21
