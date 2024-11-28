@@ -111,7 +111,7 @@
     }
   },
   "dependencies": {
-    "@adguard/agtree": "^2.1.2",
+    "@adguard/agtree": "^2.2.0",
     "@adguard/assistant": "^4.3.70",
     "@adguard/filters-downloader": "^2.2.0",
     "@adguard/logger": "^1.1.1",
