@@ -107,7 +107,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@adguard/tswebextension>@adguard/tsurlfilter": "https://github.com/AdguardTeam/tsurlfilter/raw/180ccccf63ee801dbc1e0fb3d0b4008eff98b470/packages/tsurlfilter/tsurlfilter.tgz"
+      "@adguard/tswebextension>@adguard/tsurlfilter": "https://github.com/AdguardTeam/tsurlfilter/raw/5de3f8b191d4bbe33703902c91ae98cf4f566ffd/packages/tsurlfilter/tsurlfilter.tgz"
     }
   },
   "dependencies": {
@@ -117,8 +117,8 @@
     "@adguard/logger": "^1.1.1",
     "@adguard/scriptlets": "^1.12.1",
     "@adguard/translate": "^1.0.2",
-    "@adguard/tsurlfilter": "https://github.com/AdguardTeam/tsurlfilter/raw/180ccccf63ee801dbc1e0fb3d0b4008eff98b470/packages/tsurlfilter/tsurlfilter.tgz",
-    "@adguard/tswebextension": "https://github.com/AdguardTeam/tsurlfilter/raw/180ccccf63ee801dbc1e0fb3d0b4008eff98b470/packages/tswebextension/tswebextension.tgz",
+    "@adguard/tsurlfilter": "https://github.com/AdguardTeam/tsurlfilter/raw/5de3f8b191d4bbe33703902c91ae98cf4f566ffd/packages/tsurlfilter/tsurlfilter.tgz",
+    "@adguard/tswebextension": "https://github.com/AdguardTeam/tsurlfilter/raw/5de3f8b191d4bbe33703902c91ae98cf4f566ffd/packages/tswebextension/tswebextension.tgz",
     "@xstate/react": "^4.1.1",
     "ace-builds": "^1.8.1",
     "assert": "^2.0.0",
