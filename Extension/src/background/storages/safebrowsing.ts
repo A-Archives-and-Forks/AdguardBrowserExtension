@@ -40,6 +40,11 @@ export class SbCache {
     public static readonly CACHE_TTL_MS = 40 * 60 * 1000;
 
     /**
+     * Number of maximum allowed cache records.
+     */
+    public static readonly CACHE_LIMIT = 1000;
+
+    /**
      * {@link LRUCache} instance.
      */
     private cache: LRUCache<string, SafebrowsingCacheData>;
@@ -49,7 +54,7 @@ export class SbCache {
      */
     constructor() {
         this.cache = new LRUCache({
-            max: 1000,
+            max: SbCache.CACHE_LIMIT,
             allowStale: false,
         });
     }
@@ -152,4 +157,4 @@ export class SbCache {
 
 export const sbCache = new SbCache();
 
-export const sbRequestCache = new LRUCache({ max: 1000 });
+export const sbRequestCache = new LRUCache({ max: SbCache.CACHE_LIMIT });
